@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitabon ki Basti</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+   
+</head>
+<body>
+    <header><div>
+        <img src="backgroundimg.jpg" width="1450" height="450">
+        <div class="overlay"></div>
+        <h1 class="heading-overlay">Welcome to Kitabon Ki Basti</h1>
+        <h2>Find your next favorite read!</h2>
+    </div></header>
+    <nav> 
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="http://127.0.0.1:5501/about.html">About</a></li>
+            <div>
+                <input type="text" id="searchInput" placeholder="Search for a book..." />
+                <button onclick="searchBooks()">Search</button>
+              </div>             
+            <li><li></li><li></li></li><li><li><li><li><li><li><li><li><li></li></li></li></li><li><li></li></li></li></li></li></li></li><li></li><li><li><li></li></li></li><li><li><li></li></li></li><li><li></li></li><li><li><li><li></li></li></li><li></li>
+            <a href="cart.html"><img src="cart.png" width="40px" height="35px" alt="Cart"></a>
+            <li><a href="login.html"><img src="user.png" width="30px" height="30px" alt="Login"></a></li>
+        </ul>
+    </nav>
+    <div id="results"></div>
+    <main>
+        <h2>Featured Books</h2>
+        <section class="book-collection">
+            <div class="book">
+                <img src="power..png" height="230">
+                <h3>The 48 Laws Of Power </h3>
+                <p> By Robert Greene</p>
+                <p>₹250</p>
+                <button onclick="addToCart('The 48 Laws Of Power', 250,'power..png')">Add to Cart</button><div id="flash-message" class="hidden">✔ Item added to cart</div>
+                <a href="http://127.0.0.1:5501/power.html">
+                <button>view</button></a>
+            </div>
+            <div class="book">
+                <img src="ikigai.jpeg" alt="image" height="185">
+               <p> <h3>Ikigai: </h3><h4>The Japanese Secret to a Long and Happy Life</h4></p>
+                <p>By Francesc Miralles and Hector Garcia</p>
+                <p>₹250</p>
+                <button onclick="addToCart('Ikigai:The Japanese Secret to a Long and Happy Life', 250, 'ikigai.jpeg')">Add to Cart</button><div id="flash-message" class="hidden">✔ Item added to cart</div>
+                <a href="http://127.0.0.1:5501/ikigai.html">
+                    <button>view</button></a>
+            </div>
+            <div class="book">
+                <img src="mokingbird.jpeg" height="230">
+                <h3>To Kill a Mockingbird</h3>
+                <p> By Harper Lee</p>
+                <p>₹250</p>
+                <button onclick="addToCart('To Kill a Mockingbird', 250,'mokingbird.jpeg')">Add to Cart</button>
+                <div id="flash-message" class="hidden">✔ Item added to cart</div>
+                <a href="http://127.0.0.1:5501/mockingbird.html"><button>view</button></a>
+            </div>
+            <div class="book">
+                <img src="1984.jpeg" alt="Book 2" height="260">
+                <h3>1984</h3>
+                <p> By George Orwell </p>
+                <p>₹349</p>
+                <button onclick="addToCart('1984',349,'1984.jpeg')">Add to Cart</button><div id="flash-message" class="hidden">✔ Item added to cart</div>
+                <a href="http://127.0.0.1:5501/1984book.html"><button>view</button></a>
+            </div>
+            <div class="book">
+                <img src="gatsy.jpeg" alt="Book 2" height="260">
+                <h3>The Great Gatsby</h3>
+                <p> By F.Scott Fitzgerald</p>
+                <p>₹349</p>
+                <button onclick="addToCart('The Great Gatsby',349,'gatsy.jpeg')">Add to Cart</button><div id="flash-message" class="hidden">✔ Item added to cart</div>
+                <a href="http://127.0.0.1:5501/the_great_gatsby.html">
+                    <button>view</button>
+                </a>
+            </div>
+            <div class="book">
+                <img src="think.webp" height="210">
+                <h4>THINK STRAIGHT:</h4><h4>Change Your Thoughts, Change Your Life</h4> 
+                <p> By Darius Foroux</p>
+                <p>₹349</p>
+                <button onclick="addToCart('THINK STRAIGHT : Change Your Thoughts, Change Your Life',349,'think.webp')">Add to Cart</button><div id="flash-message" class="hidden">✔ Item added to cart</div>
+                <a href="http://127.0.0.1:5501/thinkstraight.html">
+                    <button>view</button>
+                </a>
+            </div>
+           
+            
+<!-- Add more books as needed -->   
+        </section>
+    </main>
+     
+    <footer>
+        <h4 font="Arial"><marquee behavior="scroll" direction="left">
+            Contact us at : kitabonkibasti@gmail.com Or Watsapp no. : XXXXXXXX01
+        </marquee>
+        </h4>
+        <p>&copy; 2024 Kitabon Ki Basti. All rights reserved.</p>
+        <p>Follow us on:
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
