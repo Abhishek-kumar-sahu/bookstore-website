@@ -1,0 +1,159 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(Leonardo_Phoenix_A_breathtakingly_detailed_3D_desktop_scene_fe_2.jpg); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Section Container */
+section {
+    position: relative;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px); /* Glass blur effect */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Input Box */
+.inputbox {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -10px;
+    font-size: 0.85rem;
+    color: #f1f1f1;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 10px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Forget Password Section */
+.forget {
+    margin: 35px 0;
+    font-size: 0.85rem;
+    color: #fff;
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Add space between items */
+    align-items: center; /* Align items vertically */
+    gap: 10px; /* Optional: fine-tune spacing between items */
+}
+
+
+.forget label {
+    display: flex;
+    align-items: center;
+}
+
+.forget label input {
+    margin-right: 5px;
+}
+
+.forget a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.forget a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Register Section */
+.register {
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.register p a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
