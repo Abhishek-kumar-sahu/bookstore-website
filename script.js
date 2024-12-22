@@ -1,11 +1,11 @@
 // Sample book data (for demonstration)
 const books = [
-  { title: "The 48 Laws Of Power", author: "Francesc Miralles and Hector Garcia", link: "http://127.0.0.1:5501/power.html" },
-  { title: "The Great Gatsby", author: "F. Scott Fitzgerald", link: "http://127.0.0.1:5501/the_great_gatsby.html" },
-  { title: "To Kill a Mockingbird", author: "Harper Lee", link: "http://127.0.0.1:5501/mockingbird.html" },
-  { title: "1984", author: "George Orwell", link: "http://127.0.0.1:5501/1984book.html" },
-  { title: "Ikigai: The Japanese Secret to a Long and Happy Life", author: "Francesc Miralles and Hector Garcia", link: "http://127.0.0.1:5501/ikigai.html" },
-  { title: "Think Straight : Change Your Thoughts, Change Your Life", author: "Darius Foroux", link: "http://127.0.0.1:5501/thinkstraight.html" },
+  { title: "The 48 Laws Of Power", author: "Francesc Miralles and Hector Garcia", link: "power.html" },
+  { title: "The Great Gatsby", author: "F. Scott Fitzgerald", link: "the_great_gatsby.html" },
+  { title: "To Kill a Mockingbird", author: "Harper Lee", link: "mockingbird.html" },
+  { title: "1984", author: "George Orwell", link: "1984book.html" },
+  { title: "Ikigai: The Japanese Secret to a Long and Happy Life", author: "Francesc Miralles and Hector Garcia", link: "ikigai.html" },
+  { title: "Think Straight : Change Your Thoughts, Change Your Life", author: "Darius Foroux", link: "thinkstraight.html" },
 ];
 
 // Function to search for books based on user input
