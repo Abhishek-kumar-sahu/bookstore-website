@@ -1,3 +1,3 @@
 # bookstore-website
-Front end  for a semple  website for bookstore 
+Front end  for a simple  website for bookstore 
 
